@@ -5,6 +5,7 @@
     - run `termux-setup-storage` manually (bec. of android permission ask)
     - checkout this git repo
     - cd into the repos directory
+    - in .bashrc add `${SSH_KEY_COMMENT}` var, e.g. `john_phone_fairphone2_f5h6` (`"<person-name(e.g. john)>_<device-type(e.g. phone)>_<device_name(e.g. fairphone2)>_<short_hash>"`)
     - run `init.sh` / `setup.sh`
         - adds git aliases
             - ...
@@ -31,6 +32,3 @@
             - probbably via source
 
 
-```
-ssh-keygen -t rsa -b 4096 -C "tino-phone_sony-xperia-xz2-c_x9lh5" ~/.ssh/id_rsa
-```

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euxo pipefail
+
 # update
 pkg up -y
 apt update && apt upgrade -y
@@ -18,5 +20,4 @@ pkg install -y openssl
 
 # create ssh key pair
 mkdir -p ~/.ssh
-#todo: -C has to be set via env beforehand
-echo -e "y\n" | ssh-keygen -q -P "" -b 4096 -t rsa -C "tino-phone_sony-xperia-xz2-c_x9lh5" -f ~/.ssh/id_rsa > /dev/null
+echo -e "y\n" | ssh-keygen -q -P "" -b 4096 -t rsa -C "${SSH_KEY_COMMENT}" -f ~/.ssh/id_rsa > /dev/null
