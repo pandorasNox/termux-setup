@@ -15,8 +15,6 @@ pkg install -y httping
 pkg install -y dnsutils
 pkg install -y openssh
 pkg install -y openssl
-# duckduckgo
-pkg install -y ddgr
 
 # create ssh key pair
 mkdir -p ~/.ssh
