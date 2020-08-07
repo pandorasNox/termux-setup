@@ -5,16 +5,16 @@ pkg up -y
 apt update && apt upgrade -y
 
 # install packages
-pkg install curl
-pkg install git
-pkg install wget
-pkg install nano
-pkg install grep
-pkg install htop
-pkg install httping
-pkg install dnsutils
-pkg install openssh
-pkg install openssl
+pkg install -y curl
+pkg install -y git
+pkg install -y wget
+pkg install -y nano
+pkg install -y grep
+pkg install -y htop
+pkg install -y httping
+pkg install -y dnsutils
+pkg install -y openssh
+pkg install -y openssl
 # duckduckgo
 pkg install ddgr
 
