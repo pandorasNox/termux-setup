@@ -30,3 +30,6 @@
                 - adds before generated key pair
         - adds scripts to e.g. `.bashrc`
             - probbably via source
+
+## inspiration
+- https://github.com/mskian/my-termux-setup
