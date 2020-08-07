@@ -7,6 +7,7 @@ pkg up -y
 apt update && apt upgrade -y
 
 # install packages
+pkg install -y termux-api
 pkg install -y curl
 pkg install -y git
 pkg install -y wget
