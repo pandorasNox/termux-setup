@@ -21,3 +21,7 @@ pkg install -y openssl
 # create ssh key pair
 mkdir -p ~/.ssh
 echo -e "y\n" | ssh-keygen -q -P "" -b 4096 -t rsa -C "${SSH_KEY_COMMENT}" -f ~/.ssh/id_rsa > /dev/null
+
+# add start-ssh script
+cp start-ssh.sh ~
+echo "source start-ssh.sh" >> ~/.bashrc
