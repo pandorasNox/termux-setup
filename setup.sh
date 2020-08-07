@@ -18,4 +18,4 @@ pkg install -y openssl
 
 # create ssh key pair
 mkdir -p ~/.ssh
-echo -e "y\n" | ssh-keygen -q -P "" -b 4096 -t rsa -C="tino-phone_sony-xperia-xz2-c_x9lh5" -f ~/.ssh/id_rsa > /dev/null
+echo -e "y\n" | ssh-keygen -q -P "" -b 4096 -t rsa -C "tino-phone_sony-xperia-xz2-c_x9lh5" -f ~/.ssh/id_rsa > /dev/null
