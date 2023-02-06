@@ -33,3 +33,7 @@
 
 ## inspiration
 - https://github.com/mskian/my-termux-setup
+
+## reources
+- https://github.com/termux/termux-api/pull/235
+
